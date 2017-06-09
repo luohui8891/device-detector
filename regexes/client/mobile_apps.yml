@@ -140,3 +140,7 @@
   regex: 'i[cC]atcher[^\d]+([\d\.]+)'
   name: 'iCatcher'
   version: '$1'
+-
+  regex: 'Tapatalk/(\d+)'
+  name: 'Tapatalk'
+  version: '$1'
