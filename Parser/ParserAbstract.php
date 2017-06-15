@@ -55,7 +55,7 @@ abstract class ParserAbstract
      * if $maxMinorParts is 0 only the major version will be returned
      * @var int
      */
-    protected static $maxMinorParts = 1;
+    protected static $maxMinorParts = 2;
 
     /**
      * Versioning constant used to set max versioning to major version only
