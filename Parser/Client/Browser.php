@@ -178,7 +178,8 @@ class Browser extends ClientParserAbstract
         'WO' => 'wOSBrowser',
         'WT' => 'WeTab Browser',
         'YA' => 'Yandex Browser',
-        'XI' => 'Xiino'
+        'XI' => 'Xiino',
+        'TT' => 'Tapatalk'
     );
 
     /**
@@ -200,6 +201,7 @@ class Browser extends ClientParserAbstract
         'Opera'              => array('OP', 'OM', 'OI', 'ON'),
         'Safari'             => array('SF', 'MF'),
         'Sailfish Browser'   => array('SA'),
+        'Quoord'             => array('TT'),
     );
 
     /**
@@ -208,7 +210,7 @@ class Browser extends ClientParserAbstract
      * @var array
      */
     protected static $mobileOnlyBrowsers = array(
-        '36', 'PU', 'SK', 'OI', 'DB', 'ST', 'BL', 'IV', 'FM', 'C1', 'AL'
+        '36', 'PU', 'SK', 'OI', 'DB', 'ST', 'BL', 'IV', 'FM', 'C1', 'AL',  'TT'
     );
 
     /**
