@@ -6,7 +6,7 @@
 ###############
 
 # Tapatalk
-- regex: 'Tapatalk\/(\S+)'
+- regex: 'Tapatalk[ /](\S+)'
   name: 'Tapatalk'
   version: '$1'
   engine:
